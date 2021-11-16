@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMODProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637726668996586059
+  lastModified: 637726697704157986
   FileSizes:
   - Name: Desktop
-    Value: 87200
+    Value: 925952
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -37,12 +37,13 @@ MonoBehaviour:
   - {fileID: -5045050350846301760}
   EditorEvents:
   - {fileID: 6719415756954777159}
+  - {fileID: 5178694783485347231}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5045050350846301760}
   StringsBanks:
   - {fileID: 9160977371061254383}
-  cacheTime: 637726668996596061
+  cacheTime: 637726697704172870
   cacheVersion: 9
 --- !u!114 &987077505279458516
 MonoBehaviour:
@@ -84,6 +85,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 87200
   Exists: 1
+--- !u!114 &5178694783485347231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Amogus
+  m_EditorClassIdentifier: 
+  Path: event:/Amogus
+  Guid:
+    Data1: -877722562
+    Data2: 1337064464
+    Data3: 1849257631
+    Data4: 976133226
+  Banks:
+  - {fileID: -5045050350846301760}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6719415756954777159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,8 +154,8 @@ MonoBehaviour:
   Path: FMODProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637726668996596061
+  lastModified: 637726697704172870
   FileSizes:
   - Name: Desktop
-    Value: 754
+    Value: 804
   Exists: 1
