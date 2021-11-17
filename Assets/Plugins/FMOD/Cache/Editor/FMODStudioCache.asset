@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8190576047577480224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eddies Audio/Heavy_Pipe_Scraping
+  m_EditorClassIdentifier: 
+  Path: event:/Eddies Audio/Heavy_Pipe_Scraping
+  Guid:
+    Data1: 1642459868
+    Data2: 1261148917
+    Data3: -1303103612
+    Data4: 246720496
+  Banks:
+  - {fileID: -5045050350846301760}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8100
+--- !u!114 &-7109495393345513317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eddies Audio/Designed_Metal_Scrape
+  m_EditorClassIdentifier: 
+  Path: event:/Eddies Audio/Designed_Metal_Scrape
+  Guid:
+    Data1: 2077815525
+    Data2: 1226474129
+    Data3: -727956826
+    Data4: -661515456
+  Banks:
+  - {fileID: -5045050350846301760}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4211
 --- !u!114 &-5045050350846301760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,11 +69,92 @@ MonoBehaviour:
   Path: FMODProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637726753473271094
+  lastModified: 637727612494871014
   FileSizes:
   - Name: Desktop
-    Value: 925952
+    Value: 2852864
   Exists: 1
+--- !u!114 &-2907001015471709115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eric Audio/Walk
+  m_EditorClassIdentifier: 
+  Path: event:/Eric Audio/Walk
+  Guid:
+    Data1: 1514316977
+    Data2: 1196576884
+    Data3: 1079027843
+    Data4: 1982342696
+  Banks:
+  - {fileID: -5045050350846301760}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4671
+--- !u!114 &-1816481753768672987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eric Audio/Brrrrrrrrrrrrrrrrrr
+  m_EditorClassIdentifier: 
+  Path: event:/Eric Audio/Brrrrrrrrrrrrrrrrrr
+  Guid:
+    Data1: 745791924
+    Data2: 1219493368
+    Data3: -1847142784
+    Data4: -1401005720
+  Banks:
+  - {fileID: -5045050350846301760}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 378258
+--- !u!114 &-1331490222468997505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eric Audio/Jogg
+  m_EditorClassIdentifier: 
+  Path: event:/Eric Audio/Jogg
+  Guid:
+    Data1: -1796789259
+    Data2: 1289767467
+    Data3: -1357756520
+    Data4: 725435722
+  Banks:
+  - {fileID: -5045050350846301760}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5016
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38,12 +173,21 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 6719415756954777159}
   - {fileID: 5178694783485347231}
+  - {fileID: 6615709464659145986}
+  - {fileID: -8190576047577480224}
+  - {fileID: 3816364748392799979}
+  - {fileID: -7109495393345513317}
+  - {fileID: 4824853076370316677}
+  - {fileID: -2907001015471709115}
+  - {fileID: -1816481753768672987}
+  - {fileID: 1578313175265835024}
+  - {fileID: -1331490222468997505}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5045050350846301760}
   StringsBanks:
   - {fileID: 9160977371061254383}
-  cacheTime: 637726753473271094
+  cacheTime: 637727612494890854
   cacheVersion: 9
 --- !u!114 &987077505279458516
 MonoBehaviour:
@@ -65,6 +209,60 @@ MonoBehaviour:
   - Name: Desktop
     Value: 754
   Exists: 1
+--- !u!114 &1578313175265835024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eric Audio/Run
+  m_EditorClassIdentifier: 
+  Path: event:/Eric Audio/Run
+  Guid:
+    Data1: 898610911
+    Data2: 1133401431
+    Data3: 169977268
+    Data4: -281545282
+  Banks:
+  - {fileID: -5045050350846301760}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3204
+--- !u!114 &3816364748392799979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eddies Audio/Antique_Grinder
+  m_EditorClassIdentifier: 
+  Path: event:/Eddies Audio/Antique_Grinder
+  Guid:
+    Data1: 541361887
+    Data2: 1132139547
+    Data3: 883113640
+    Data4: 534997059
+  Banks:
+  - {fileID: -5045050350846301760}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6500
 --- !u!114 &4096347317905735738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,6 +283,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 87200
   Exists: 1
+--- !u!114 &4824853076370316677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eric Audio/idk scream test
+  m_EditorClassIdentifier: 
+  Path: event:/Eric Audio/idk scream test
+  Guid:
+    Data1: -441678588
+    Data2: 1181320342
+    Data3: -1260270963
+    Data4: 1796341711
+  Banks:
+  - {fileID: -5045050350846301760}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4226
 --- !u!114 &5178694783485347231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,19 +324,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Amogus
   Guid:
-    Data1: -877722562
-    Data2: 1337064464
-    Data3: 1849257631
-    Data4: 976133226
+    Data1: -7127445
+    Data2: 1312085034
+    Data3: -669477483
+    Data4: -572176108
   Banks:
   - {fileID: -5045050350846301760}
-  IsStream: 1
+  IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 680
+--- !u!114 &6615709464659145986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eddies Audio/Static
+  m_EditorClassIdentifier: 
+  Path: event:/Eddies Audio/Static
+  Guid:
+    Data1: -1841407063
+    Data2: 1192388785
+    Data3: -1984413543
+    Data4: 1403129489
+  Banks:
+  - {fileID: -5045050350846301760}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60122
 --- !u!114 &6719415756954777159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,8 +406,8 @@ MonoBehaviour:
   Path: FMODProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637726753473271094
+  lastModified: 637727612494890854
   FileSizes:
   - Name: Desktop
-    Value: 804
+    Value: 1248
   Exists: 1
