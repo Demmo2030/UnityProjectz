@@ -60,6 +60,9 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="maximumDistance">
+			<value>35</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{819e0c2f-d206-4123-bfab-60595bc92a13}" />
 	<object class="GroupTrack" id="{c9cc3f41-e134-440d-9b38-8c2797a4ac57}">
@@ -125,6 +128,7 @@
 	<object class="MixerBusEffectChain" id="{92dc890b-4532-4046-be42-27b58da50259}">
 		<relationship name="effects">
 			<destination>{b1db4b4a-ce5b-4887-b2e4-5c274ba61a6f}</destination>
+			<destination>{923e5e78-375b-4da7-b6ea-8bd61ffca2dc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8b7dfd2a-efa5-4e19-9eea-00d4f29b0a2b}" />
@@ -133,6 +137,29 @@
 		<property name="distanceRolloffType">
 			<value>2</value>
 		</property>
+		<property name="maximumDistance">
+			<value>35</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{b1db4b4a-ce5b-4887-b2e4-5c274ba61a6f}" />
+	<object class="SFXReverbEffect" id="{923e5e78-375b-4da7-b6ea-8bd61ffca2dc}">
+		<property name="earlyDelay">
+			<value>7</value>
+		</property>
+		<property name="lateDelay">
+			<value>11</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>59</value>
+		</property>
+		<property name="highCut">
+			<value>7800</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>87</value>
+		</property>
+		<property name="wetLevel">
+			<value>-5.5</value>
+		</property>
+	</object>
 </objects>
