@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DDD660B3-156D-43C5-C111-49E509185082}</ProjectGuid>
+    <ProjectGuid>{ABC9AC5F-B27C-29B7-269C-1D0A77DF9B8A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Advertisements</AssemblyName>
@@ -646,7 +646,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{48B536A2-3843-609A-7A5F-DE4B8A89BA61}</Project>
+      <Project>{A5B28F48-99AC-0503-D74C-37E885CE905C}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

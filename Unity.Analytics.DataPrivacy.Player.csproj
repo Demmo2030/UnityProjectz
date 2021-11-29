@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{524D4B21-89B9-A895-C2AD-DE6899F219C6}</ProjectGuid>
+    <ProjectGuid>{865C25AE-3D29-927F-038E-A34C29C6397B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Analytics.DataPrivacy</AssemblyName>
@@ -608,7 +608,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{48B536A2-3843-609A-7A5F-DE4B8A89BA61}</Project>
+      <Project>{A5B28F48-99AC-0503-D74C-37E885CE905C}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

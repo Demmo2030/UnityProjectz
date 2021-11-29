@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C26A63BE-98F9-B26B-58EA-B7F284345352}</ProjectGuid>
+    <ProjectGuid>{0A260CE6-1380-4AF2-8B3B-DB325DD53445}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TextMeshPro</AssemblyName>
@@ -106,8 +106,8 @@
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMPro_EventManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_SubMeshUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_UpdateManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMPro_Private.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_ShaderUtilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMPro_Private.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_Character.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_SpriteAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.1\Scripts\Runtime\TMP_ScrollbarEventHandler.cs" />
@@ -664,7 +664,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{48B536A2-3843-609A-7A5F-DE4B8A89BA61}</Project>
+      <Project>{A5B28F48-99AC-0503-D74C-37E885CE905C}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

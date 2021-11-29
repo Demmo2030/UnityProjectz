@@ -33,14 +33,7 @@ public class Player : MonoBehaviour
 
 	void Update()
 	{
-		if (Input.GetButtonDown ("Fire1"))
-		{
-			if(bullet != null)
-			{
-				Instantiate(bullet, bulletRef.transform.position, bulletRef.transform.rotation);
-				audioManager.PlayerShoot ();
-			}
-		}
+		
 	}
 	
     public void RespawnRoutine(float waitTime)

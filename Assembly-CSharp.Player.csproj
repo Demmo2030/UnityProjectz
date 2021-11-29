@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{27EE2FE7-B8B8-F2FE-33E3-5EEDE6805AD4}</ProjectGuid>
+    <ProjectGuid>{BABE268D-F1A1-35C3-E2F5-07297A83C962}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -298,6 +298,9 @@
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="FMODUnityResonanceEditor">
+      <HintPath>Library\ScriptAssemblies\FMODUnityResonanceEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
@@ -319,6 +322,9 @@
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
+    <Reference Include="FMODUnityEditor">
+      <HintPath>Library\ScriptAssemblies\FMODUnityEditor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
     </Reference>
@@ -327,12 +333,6 @@
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="FMODUnityResonanceEditor">
-      <HintPath>Library\ScriptAssemblies\FMODUnityResonanceEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="FMODUnityEditor">
-      <HintPath>Library\ScriptAssemblies\FMODUnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -682,59 +682,59 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{319EDE84-8D72-A9B9-CE02-A322DBEAB439}</Project>
+      <Project>{73A64392-B839-0981-15EF-4EBDBBCCCE3B}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
-      <Project>{3DF123A3-3B27-6FD3-4DF6-34A8E88EEE78}</Project>
+      <Project>{CF1F1689-57D4-418B-3A6D-2AB2F429B9C9}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{231DDE0E-F994-CCF0-0D31-5326AAF2FEAB}</Project>
+      <Project>{859CD65B-0577-E9CE-5C41-FC85941B6549}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{D38F9866-C4C1-E636-7AD8-A4B3DC47FF71}</Project>
+      <Project>{A5F4A1E7-CB37-1976-1A6F-CA35D29483A2}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Advertisements.csproj">
-      <Project>{2CD95C09-AFFE-C0EF-448E-48382F702D7B}</Project>
+      <Project>{57D3A001-AE0E-845C-DBC4-AD24AC16337F}</Project>
       <Name>UnityEngine.Advertisements</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{48B536A2-3843-609A-7A5F-DE4B8A89BA61}</Project>
+      <Project>{A5B28F48-99AC-0503-D74C-37E885CE905C}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{14842490-C9AC-D727-4ED5-D0072DA8A1AA}</Project>
+      <Project>{C333E998-CEFE-6DCF-2B89-8BF7197320B6}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
-      <Project>{E81BD443-26B6-A620-1FBD-15AD5271DFBC}</Project>
+      <Project>{D8005C3E-D75D-1DCC-F609-A58CEA233E44}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.multiplayer-hlapi.Runtime.csproj">
-      <Project>{7A1EBF7A-E0F7-D084-6D86-59867063A73A}</Project>
+      <Project>{0A22FBFF-C580-CCE2-87CE-DAA2DF882054}</Project>
       <Name>com.unity.multiplayer-hlapi.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{83F6AA86-01B6-4B1C-9142-4A91427EE1DC}</Project>
+      <Project>{53FDB4DC-18F5-4C8D-A528-FBD66B745BCD}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{9715A42C-2F78-74E9-4758-B196A60CB13C}</Project>
+      <Project>{CCC565C9-503B-48F2-8CC3-37237C9222BB}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.Monetization.csproj">
-      <Project>{E039BFE6-98EE-B7AC-DADA-68E22CF6871A}</Project>
-      <Name>UnityEngine.Monetization</Name>
-    </ProjectReference>
     <ProjectReference Include="FMODUnity.csproj">
-      <Project>{D0C30A55-0888-E9A6-4B15-2FF7BC2DDE31}</Project>
+      <Project>{9D3DA681-58D4-E822-90C8-0A18104C358F}</Project>
       <Name>FMODUnity</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Monetization.csproj">
+      <Project>{7E9480CF-651A-B9DD-5C79-84C12A5FF9AA}</Project>
+      <Name>UnityEngine.Monetization</Name>
+    </ProjectReference>
     <ProjectReference Include="FMODUnityResonance.csproj">
-      <Project>{598625CA-0144-1053-BEBF-15A759377993}</Project>
+      <Project>{DAD92107-5F5C-B0BC-B657-4FFE6BF10154}</Project>
       <Name>FMODUnityResonance</Name>
     </ProjectReference>
   </ItemGroup>

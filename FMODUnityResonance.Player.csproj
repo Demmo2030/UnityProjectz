@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AE11DACA-86E8-8ED2-CB4D-F1B70BB93D43}</ProjectGuid>
+    <ProjectGuid>{E6737EDA-A0B4-C8FA-DD73-275ABFBCC849}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>FMODUnityResonance</AssemblyName>
@@ -56,8 +56,8 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\FMOD\addons\ResonanceAudio\Scripts\FmodResonanceAudio.cs" />
     <Compile Include="Assets\Plugins\FMOD\addons\ResonanceAudio\Scripts\FmodResonanceAudioRoom.cs" />
+    <Compile Include="Assets\Plugins\FMOD\addons\ResonanceAudio\Scripts\FmodResonanceAudio.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Plugins\FMOD\addons\ResonanceAudio\Scripts\FMODUnityResonance.asmdef" />
@@ -607,11 +607,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="FMODUnity.csproj">
-      <Project>{D0C30A55-0888-E9A6-4B15-2FF7BC2DDE31}</Project>
+      <Project>{9D3DA681-58D4-E822-90C8-0A18104C358F}</Project>
       <Name>FMODUnity</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{48B536A2-3843-609A-7A5F-DE4B8A89BA61}</Project>
+      <Project>{A5B28F48-99AC-0503-D74C-37E885CE905C}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
