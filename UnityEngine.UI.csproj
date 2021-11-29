@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{48B536A2-3843-609A-7A5F-DE4B8A89BA61}</ProjectGuid>
+    <ProjectGuid>{A5B28F48-99AC-0503-D74C-37E885CE905C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.UI</AssemblyName>
@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Text.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Image.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Toggle.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutElement.cs" />
@@ -72,7 +73,6 @@
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\IMeshModifier.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\MoveDirection.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\UIBehaviour.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Text.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Utility\ReflectionMethodsCache.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Animation\CoroutineTween.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutUtility.cs" />

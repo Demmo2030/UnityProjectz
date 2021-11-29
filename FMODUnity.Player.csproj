@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F1A541E9-67B2-24CC-9A4E-3400F63371D0}</ProjectGuid>
+    <ProjectGuid>{70C8A2B2-980C-7C76-E1CE-86E639F9B18B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>FMODUnity</AssemblyName>
@@ -56,41 +56,41 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\FMOD\src\fmod.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\fmod_studio.cs" />
-    <Compile Include="Assets\Plugins\FMOD\platforms\android\src\PlatformAndroid.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\PlatformGroup.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\RuntimeUtils.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\StudioGlobalParameterTrigger.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\FMODRuntimeManagerOnGUIHelper.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\fmod_dsp.cs" />
-    <Compile Include="Assets\Plugins\FMOD\platforms\win\src\PlatformWindows.cs" />
-    <Compile Include="Assets\Plugins\FMOD\platforms\ios\src\PlatformIOS.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\RuntimeManager.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\StudioEventEmitter.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\EventHandler.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\AutomatableSlots.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\EventRefAttribute.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\EventReference.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\StudioParameterTrigger.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\PlatformMobileLow.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\PlatformGroup.cs" />
+    <Compile Include="Assets\Plugins\FMOD\platforms\ios\src\PlatformIOS.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Settings.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\StudioBankLoader.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\PlatformPlayInEditor.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\StudioListener.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\fmod_errors.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\ParamRef.cs" />
+    <Compile Include="Assets\Plugins\FMOD\platforms\html5\src\PlatformWebGL.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\RuntimeUtils.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\BankRefAttribute.cs" />
     <Compile Include="Assets\Plugins\FMOD\platforms\tvos\src\PlatformAppleTV.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\Platform.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\FMODRuntimeManagerOnGUIHelper.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\RuntimeManager.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\EventHandler.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\EventRefAttribute.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\ParamRefAttribute.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\StudioListener.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\PlatformMobileLow.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\fmod_errors.cs" />
+    <Compile Include="Assets\Plugins\FMOD\platforms\android\src\PlatformAndroid.cs" />
+    <Compile Include="Assets\Plugins\FMOD\platforms\win\src\PlatformWindows.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\FMODEventTrack.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\fmod.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\AutomatableSlots.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\StudioParameterTrigger.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\FMODEventPlayable.cs" />
+    <Compile Include="Assets\Plugins\FMOD\platforms\mac\src\PlatformMac.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\StudioEventEmitter.cs" />
+    <Compile Include="Assets\Plugins\FMOD\src\PlatformPlayInEditor.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\PlatformDefault.cs" />
     <Compile Include="Assets\Plugins\FMOD\platforms\linux\src\PlatformLinux.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Platform.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\ParamRef.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\Settings.cs" />
-    <Compile Include="Assets\Plugins\FMOD\src\FMODEventPlayable.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\PlatformMobileHigh.cs" />
-    <Compile Include="Assets\Plugins\FMOD\platforms\html5\src\PlatformWebGL.cs" />
-    <Compile Include="Assets\Plugins\FMOD\platforms\mac\src\PlatformMac.cs" />
     <Compile Include="Assets\Plugins\FMOD\src\CodeGeneration.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -661,11 +661,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{231DDE0E-F994-CCF0-0D31-5326AAF2FEAB}</Project>
+      <Project>{859CD65B-0577-E9CE-5C41-FC85941B6549}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{48B536A2-3843-609A-7A5F-DE4B8A89BA61}</Project>
+      <Project>{A5B28F48-99AC-0503-D74C-37E885CE905C}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
